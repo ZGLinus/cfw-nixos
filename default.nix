@@ -18,7 +18,7 @@
   cfw = pkgs.callPackage ./pkgs/cfw/default.nix { }; 
   obsidian = pkgs.callPackage ./pkgs/obsidian/default.nix { };
   watt-toolkit =  pkgs.callPackage ./pkgs/watt-toolkit/default.nix { };
-  latte-dock = ibsForQt5.callPackage ./pkgs/latte-dock/default.nix { };
+  latte-dock = libsForQt5.callPackage ./pkgs/latte-dock/default.nix { };
   wps = libsForQt5.callPackage ./pkgs/wps/default.nix { };
   sddm = pkgs.callPackage ./pkgs/sddm/default.nix { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };

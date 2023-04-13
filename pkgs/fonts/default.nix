@@ -1,5 +1,6 @@
 { stdenvNoCC
 , lib
+, fetchurl
 , ...
 } @ args:
 

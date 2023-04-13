@@ -1,4 +1,6 @@
-{ stdenv }:
+{ stdenv 
+, fetchurl
+}:
 
 stdenv.mkDerivation rec {
   src = fetchurl {

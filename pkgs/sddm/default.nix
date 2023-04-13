@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   '';
 
   installPhase = ''
-    mkdir -p $out/share/sddm/themes
+    mkdir -p $out/share/sddm/themes/sugar-candy
     cp -aR sugar-candy-magic/* $out/share/sddm/themes/sugar-candy
   '';
 

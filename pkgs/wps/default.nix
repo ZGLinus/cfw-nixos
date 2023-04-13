@@ -20,7 +20,10 @@
 stdenv.mkDerivation rec {
   pname = "wpsoffice";
   version = "11.1.0.11691";
-  fonts = ./Fonts.tar.gz;
+  fonts = fetchurl {
+    url = "https://media.githubusercontent.com/media/zglinus-for-nix/zglinus-s-NUR/master/pkgs/wps/Fonts.tar.gz";
+    sha256 = "sha256-piq8n60bPlOz77YwohCoGCtk86VgkGcFuLton7H7gt4=";
+  };
     src = if useChineseVersion then fetchurl {
     url = "https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/${lib.last (lib.splitString "." version)}/wps-office_${version}_amd64.deb";
     sha256 = "sha256-ubFYACnsMObde9TGp1tyHtG0n5NxYMFtEbY9KXj62No=";

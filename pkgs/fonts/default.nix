@@ -7,7 +7,10 @@
 stdenvNoCC.mkDerivation rec {
   pname = "zglinus-s-fonts";
   version = "0.1";
-  src = ./source.tar.gz;
+  src = fetchurl {
+    url = "https://media.githubusercontent.com/media/zglinus-for-nix/zglinus-s-NUR/master/pkgs/fonts/source.tar.gz";
+    sha256 = "sha256-R3w/CYM77ZJazwZyg+IFZhk0lWccLJXNpQMFUEW+zFw=";
+  };
 
   unpackPhase = ''
    tar xzf ${src}

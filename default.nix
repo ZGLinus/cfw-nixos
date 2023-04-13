@@ -21,6 +21,7 @@
   latte-dock = pkgs.libsForQt5.callPackage ./pkgs/latte-dock/default.nix { };
   wps = pkgs.libsForQt5.callPackage ./pkgs/wps/default.nix { };
   sddm = pkgs.callPackage ./pkgs/sddm/default.nix { };
+  fonts = pkgs.callPackage ./pkgs/fonts/default.nix { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }

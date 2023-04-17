@@ -4,7 +4,7 @@
 
 stdenv.mkDerivation rec {
   src = fetchurl {
-    url = "https://media.githubusercontent.com/media/zglinus-for-nix/zglinus-s-NUR/master/pkgs/sddm/sugar-candy-magic.tar.gz";
+    url = "https://media.githubusercontent.com/media/zglinus-for-nix/nix-source/master/Applications/sugar-candy-magic.tar.gz";
     sha256 = "sha256-xVwlMygty1iDdT5FJ6Fr7pPeiDzUwOFAheOYEBPdJFM=";
   };
   pname = "sugar-candy";

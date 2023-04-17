@@ -21,7 +21,7 @@ stdenv.mkDerivation rec {
   pname = "wpsoffice";
   version = "11.1.0.11691";
   fonts = fetchurl {
-    url = "https://media.githubusercontent.com/media/zglinus-for-nix/zglinus-s-NUR/master/pkgs/wps/Fonts.tar.gz";
+    url = "https://media.githubusercontent.com/media/zglinus-for-nix/nix-source/master/Applications/wps-fonts.tar.gz";
     sha256 = "sha256-piq8n60bPlOz77YwohCoGCtk86VgkGcFuLton7H7gt4=";
   };
     src = if useChineseVersion then fetchurl {

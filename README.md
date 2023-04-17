@@ -1,3 +1,10 @@
+# Info
+
+- For my system: sddm, fonts
+- Done: Wps with chinese fonts, clash for windows, latte-dock, obsidian, watt-toolkit
+- Doing: Gitahead, nutstore
+- sha256 is to get the sha256 of src.
+
 # nur-packages-template
 
 **A template for [NUR](https://github.com/nix-community/NUR) repositories**

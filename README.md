@@ -1,8 +1,8 @@
 # Info
 
 - For my system: sddm, fonts
-- Done: Wps with chinese fonts, clash for windows, latte-dock, obsidian, watt-toolkit
-- Doing: Gitahead, nutstore
+- Done: Wps with chinese fonts, clash for windows, latte-dock, obsidian, watt-toolkit, Nutstore(docker)
+- Doing: Gitahead
 - sha256 is to get the sha256 of src.
 
 # nur-packages-template

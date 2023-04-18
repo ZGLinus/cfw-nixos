@@ -23,6 +23,7 @@ docker run -it \
     --net=host \
 	--name nutstore \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v /etc/localtime:/etc/localtime:ro \
 	-u $(id -u):$(id -g) \
     -v /home/$(whoami)/:/home/nutstore \
     nixos-nutstore-env \

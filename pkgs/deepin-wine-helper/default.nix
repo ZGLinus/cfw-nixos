@@ -25,7 +25,8 @@ pkgsi686Linux.stdenv.mkDerivation rec {
 
   installPhase = ''
     mkdir -p $out/bin
-    cp -r opt/* $out/bin
+    cp -r opt/deepinwine/tools/* $out/bin
+    sed -i "s|/opt/apps/.*/files|\$\{OUTPATH\}/files|g" $out//bin/*
   '';
 
   meta = {

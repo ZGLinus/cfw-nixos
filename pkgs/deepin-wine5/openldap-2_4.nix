@@ -19,7 +19,7 @@ pkgsi686Linux.stdenv.mkDerivation rec {
   nativeBuildInputs = [ autoPatchelfHook ];
   buildInputs = [
     pkgsi686Linux.gnutls
-    (callPackage ./cryus-sasl2.nix { })
+    pkgsi686Linux.cyrus_sasl
   ];
 
   unpackPhase = ''

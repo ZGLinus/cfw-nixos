@@ -1,12 +1,13 @@
+[1;32m==> [1;37mBacking up fonts ...[0m
 [1;32m==> [1;37mDeploying /home/zgl/.deepinwine/Deepin-WeChat ...[0m
-[1;32m==> [1;37mLaunching c:/Program Files/Tencent/WeChat3.5.0.4.exe ...[0m
+[1;32m==> [1;37mLaunching c:/Program Files/Tencent/WeChatSetup-3.5.0.46.exe ...[0m
 Don't use public dir
-Run Deepin-WeChat 3.4.0.38deepin6 c:/Program Files/Tencent/WeChat3.5.0.4.exe
+Run Deepin-WeChat 3.4.0.38deepin6 c:/Program Files/Tencent/WeChatSetup-3.5.0.46.exe
 run Deepin-WeChat progress pid 
-CallApp Deepin-WeChat arg count 1: c:/Program Files/Tencent/WeChat3.5.0.4.exe
+CallApp Deepin-WeChat arg count 1: c:/Program Files/Tencent/WeChatSetup-3.5.0.46.exe
 Don't use public dir
-2023年 04月 24日 星期一 23:37:49 CST:kill Deepin-WeChat block
-2023年 04月 24日 星期一 23:37:49 CST:tag bottle: /home/zgl/.deepinwine/Deepin-WeChat
+2023年 04月 27日 星期四 09:47:12 CST:kill Deepin-WeChat block
+2023年 04月 27日 星期四 09:47:12 CST:tag bottle: /home/zgl/.deepinwine/Deepin-WeChat
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
@@ -18,136 +19,65 @@ xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, 
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+2023年 04月 27日 星期四 09:47:12 CST:active bottles: 
+2023年 04月 27日 星期四 09:47:12 CST:try to kill /home/zgl/.deepinwine/Deepin-WeChat
+/nix/store/6f03y1akch2ar6h5q9nawqjavpg9ihkd-system-path/bin/kill.sh: line 65: /proc/68292/environ: No such file or directory
+cat: /proc/68292/maps: No such file or directory
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-2023年 04月 24日 星期一 23:37:49 CST:active bottles: 
-2023年 04月 24日 星期一 23:37:49 CST:try to kill /home/zgl/.deepinwine/Deepin-WeChat
-/nix/store/zaq7r50rfafxjwlka7l8hr20l6zsg40w-system-path/bin/kill.sh: line 65: /proc/473642/environ: Permission denied
-cat: /proc/473642/maps: Permission denied
+cat: /proc/68292/cmdline: No such file or directory
+cat: /proc/68292/maps: No such file or directory
+cat: /proc/989/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473642/maps: Permission denied
-2023年 04月 24日 星期一 23:37:49 CST:kill /home/zgl/.deepinwine/Deepin-WeChat by /nix/store/sxil8x8qyg2lls8xg2ljnxj9c9lz00qf-deepin-wine-5.0.16/lib/i386-linux-gnu/deepin-wine5/wineserver.real
-cat: /proc/1160/maps: Permission denied
+cat: /proc/989/maps: Permission denied
+cat: /proc/1207/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1160/maps: Permission denied
-cat: /proc/1242/maps: Permission denied
+cat: /proc/1207/maps: Permission denied
+cat: /proc/1289/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1242/maps: Permission denied
-cat: /proc/1294/maps: Permission denied
+cat: /proc/1289/maps: Permission denied
+cat: /proc/1532/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1294/maps: Permission denied
-cat: /proc/1516/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1516/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1663/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1663/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1713/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1713/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1783/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1783/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1885/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/1885/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473642/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473642/maps: Permission denied
-cat: /proc/473658/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473658/maps: Permission denied
-cat: /proc/473661/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473661/maps: Permission denied
-cat: /proc/473668/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473668/maps: Permission denied
-cat: /proc/473673/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473673/maps: Permission denied
-cat: /proc/473737/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473737/maps: Permission denied
-cat: /proc/473947/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473947/maps: Permission denied
-cat: /proc/473949/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473949/maps: Permission denied
-cat: /proc/473967/maps: Permission denied
-xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/473967/maps: Permission denied
+cat: /proc/1532/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/512332/maps: Permission denied
+cat: /proc/1684/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-cat: /proc/512332/maps: Permission denied
+cat: /proc/1684/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/1733/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/1733/maps: Permission denied
+cat: /proc/1792/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/1792/maps: Permission denied
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
 xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
-kill 486112 for /home/zgl/.deepinwine/Deepin-WeChat
-kill 486123 for /home/zgl/.deepinwine/Deepin-WeChat
-kill 486126 for /home/zgl/.deepinwine/Deepin-WeChat
-kill 486133 for /home/zgl/.deepinwine/Deepin-WeChat
-kill 486139 for /home/zgl/.deepinwine/Deepin-WeChat
-kill 486161 for /home/zgl/.deepinwine/Deepin-WeChat
-zgl       515863  513036  0 23:37 pts/5    00:00:00 grep -E zgl.*exe.*<defunct>
-Starting process c:/Program Files/Tencent/WeChat3.5.0.4.exe ...
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/1900/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/1900/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/5575/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+cat: /proc/5575/maps: Permission denied
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+xargs: warning: options --max-lines and --replace/-I/-i are mutually exclusive, ignoring previous --max-lines value
+zgl        68705   67994  0 09:47 pts/1    00:00:00 grep -E zgl.*exe.*<defunct>
+Starting process c:/Program Files/Tencent/WeChatSetup-3.5.0.46.exe ...
+[1;32m==> [1;37mRestoring fonts ...[0m
 [1;32m==> [1;37mCreating /home/zgl/.deepinwine/Deepin-WeChat/PACKAGE_VERSION ...[0m
-cat: /opt/apps/com.qq.weixin.deepin/files/files.md5sum: No such file or directory
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
 wine version: 5.0
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
 Could not find Wine Gecko. HTML rendering will be disabled.
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
 wine: configuration in L"Y:\\.deepinwine\\Deepin-WeChat" has been updated.
-Wine cannot find the FreeType font library.  To enable Wine to
-use TrueType fonts please install a version of FreeType greater than
-or equal to 2.0.5.
-http://www.freetype.org
-X connection to :0 broken (explicit kill or server shutdown).
-X connection to :0 broken (explicit kill or server shutdown).
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
+wine: Read access denied for device L"\\??\\Z:\\", FS volume label and serial are not available.
